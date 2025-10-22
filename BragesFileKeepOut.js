@@ -9,4 +9,4 @@ updateClock();
 
 // Add this in the html?:
 // <div id="clock"></div>
-// <script src="clock.js"></script>
+// <script src="BragesFileKeepOut.js"></script>
