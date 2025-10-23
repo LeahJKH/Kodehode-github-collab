@@ -1,41 +1,83 @@
-# how too github collab
+# How to Collaborate on GitHub
 
-## creating repo
-<p>too create a repo go into your github profile and click repositories</p>
-<img src="./images/readme/header.png">
-<hr>
+## Index
+- [Creating a Repository](#creating-a-repository)
+- [Inviting Collaborators](#inviting-collaborators)
+- [Setting Up the Right Folder](#setting-up-the-right-folder)
+- [Cloning a Repository](#cloning-a-repository)
 
-<p>There click new too create a new repo and name it</p>
-<img src="./images/readme/newbtn.png">
-<hr>
+---
 
-## invite someone too your repo
+## Creating a Repository
 
-<p>There you will get a button too invite collaborators</p>
-<img src="./images/readme/cardColl.png">
-<p>you will then be prompted too enter password after that u can just press add people</p>
-<img src="./images/readme/collabscreen.png">
-<p>here you will get a card that tells u too add new people. either by username, name or email</p>
+To create a new repository:
 
-<p>here you will get three choices</p>
-<p>- you can go onto the repo and accept</p>
-<p>- you can check your email for invitation mail</p>
-<p>- you can go into inbox (this one doesnt work all of the time)</p>
+1. Go to your GitHub profile and click on **Repositories**.  
+   <img src="./images/readme/header.png" alt="GitHub Repositories">
 
+2. Click **New** to create a new repository and give it a meaningful name.  
+   <img src="./images/readme/newbtn.png" alt="New Repository Button">
 
-## getting too right folder space
+---
 
-<p>Why clone? well with cloning you get the connection too github automatically</p>
-<p>first make sure you are in the correct filepath. this can be seen in the command line</p>
-<img src="./images/readme/comandline.png">
-<p>here i can see that im in user inside leahj insiide documents and so on in the end i see my open folder is Kodehode-github-collab</p>
-<p>this is a project folder so id wish for it too be in html css which means i need too step back once i can do this from the command line</p>
-<img src="./images/readme/cd.png">
-<p>writing cd .. will take me one folder out if i wanted too go back in id write cd [folder name]</p>
-<img src="./images/readme/file.png" height="200">
-<p>i can also just press file and open folder and navigate with clicks</p>
+## Inviting Collaborators
 
-## cloning down
+Once your repository is created, you can invite collaborators:
 
-<p>now that im on the right file path i can actually clone it down<p>
-<p>!NOTE: you can read into cheatsheet for explinations of the diffrent commands remeber too press code in veiwing window</p>
+1. Click the **Invite Collaborators** button.  
+   <img src="./images/readme/cardColl.png" alt="Invite Collaborators Button">
+
+2. Enter your GitHub username, full name, or email of the person you want to invite.  
+
+3. You will be prompted to enter your password. After that, press **Add People**.  
+   <img src="./images/readme/collabscreen.png" alt="Collaborator Screen">
+
+4. The invited person can join in one of three ways:
+   - Accept the invitation directly from the repository.
+   - Check their email for an invitation.
+   - Open the GitHub inbox (note: this method may not always work).
+
+---
+
+## Setting Up the Right Folder
+
+Before cloning a repository, make sure you are in the correct file path:
+
+- Open your terminal or command line and check your current folder.  
+  <img src="./images/readme/comandline.png" alt="Command Line Showing Current Path">
+
+- If you need to navigate, use the following commands:
+  - `cd ..` → move one folder up.
+  - `cd [folder name]` → enter a specific folder.  
+    <img src="./images/readme/cd.png" alt="Changing Directory in Terminal">
+
+- Alternatively, you can use your file explorer to navigate to the correct folder.  
+  <img src="./images/readme/file.png" height="200" alt="File Explorer">
+
+---
+
+## Cloning a Repository
+
+Cloning a repository allows you to have a local copy connected to GitHub:
+
+### New Project
+
+If you created a new repository, copy the URL from the repository page:  
+<img src="./images/readme/newprojclone.png" alt="New Project Clone URL">
+
+### Existing Project
+
+If your repository already contains code:
+
+1. Open the repository page.
+2. Click the green **Code** button.
+3. Copy the URL.  
+   <img src="./images/readme/old project.png" alt="Existing Project Clone URL">
+
+### Clone the Repository
+
+In your terminal:
+
+```bash
+git clone [repository URL]
+```
