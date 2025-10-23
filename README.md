@@ -125,3 +125,5 @@ Using VS Code buttons is less demanding:
    <img src="./images/readme/newbranch.png" alt="Create Branch in VS Code">
 
 3. Once you have created the branch, the button will update. To send it to GitHub, click the cloud icon or go into **Source Control** and press the cloud button.
+
+<!--TODO: Create for merge, push and pull and pull requests-->
