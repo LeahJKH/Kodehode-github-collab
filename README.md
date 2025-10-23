@@ -5,6 +5,12 @@
 - [Inviting Collaborators](#inviting-collaborators)
 - [Setting Up the Right Folder](#setting-up-the-right-folder)
 - [Cloning a Repository](#cloning-a-repository)
+  - [New Project](#new-project)
+  - [Existing Project](#existing-project)
+  - [Clone the Repository](#clone-the-repository)
+- [Creating a Branch](#creating-a-branch)
+  - [Terminal](#terminal)
+  - [VS Code Buttons](#vscode-buttons)
 
 ---
 
@@ -27,7 +33,7 @@ Once your repository is created, you can invite collaborators:
 1. Click the **Invite Collaborators** button.  
    <img src="./images/readme/cardColl.png" alt="Invite Collaborators Button">
 
-2. Enter your GitHub username, full name, or email of the person you want to invite.  
+2. Enter your GitHub username, full name, or email of the person you want to invite.
 
 3. You will be prompted to enter your password. After that, press **Add People**.  
    <img src="./images/readme/collabscreen.png" alt="Collaborator Screen">
@@ -35,7 +41,7 @@ Once your repository is created, you can invite collaborators:
 4. The invited person can join in one of three ways:
    - Accept the invitation directly from the repository.
    - Check their email for an invitation.
-   - Open the GitHub inbox (note: this method may not always work).
+   - Open the GitHub inbox (note: this method does not always work).
 
 ---
 
@@ -58,7 +64,7 @@ Before cloning a repository, make sure you are in the correct file path:
 
 ## Cloning a Repository
 
-Cloning a repository allows you to have a local copy connected to GitHub:
+Cloning a repository allows you to have a local copy connected to GitHub and keeps it linked for easy pushing and pulling.
 
 ### New Project
 
@@ -76,26 +82,46 @@ If your repository already contains code:
 
 ### Clone the Repository
 
-In your terminal:
+Once you have the URL, clone the repository to your local machine.  
 
-```bash
-git clone [repository URL]
-```
+After cloning, you should have a new folder with all project files. Navigate into it either using the terminal or your file explorer.  
 
-<p>once you have gotten this you should have a new folder. check here for getting into the folder</p>
+> **Tip:** Make sure you are in the correct folder before cloning to avoid nesting your project in the wrong directory.
 
-[Setting Up the Right Folder](#setting-up-the-right-folder)
+[Back to Setting Up the Right Folder](#setting-up-the-right-folder)
 
-## creating a branch 
-<p>now you are almost there! we will look at two ways too create a new branch</p>
+---
 
-### terminal
-<p> in the terminal too create a new branch we will have too write a few commands </p>
-<img src="./images/readme/branchMake.png">
-<p>this will create the branch for now its invisible. we will have too switch into it and send it up</p>
-<img src="./images/readme/branchswitch.png">
-<p>using this will switch your branch too the new one you made. in your left corner you can see if you have switched branch or not. it will have the name of the branch u are currently in</p>
-<img src="./images/readme/currbranch.png">
-<p>but for now its still not on github we will have too write more commands for that</p>
+## Creating a Branch
 
-### vscode buttons
+Now you are almost ready to work! We will look at two ways to create a new branch.
+
+### Terminal
+
+Creating a branch in the terminal requires a few commands.  
+<img src="./images/readme/branchMake.png" alt="Create Branch in Terminal">
+
+This will create the branch, but it is invisible until you switch into it.  
+<img src="./images/readme/branchswitch.png" alt="Switch Branch in Terminal">
+
+Switching will move you to the new branch. In the bottom-left corner of VS Code, you can see the name of the branch you are currently in.  
+<img src="./images/readme/currbranch.png" alt="Current Branch in VS Code">
+
+At this point, the branch is still not on GitHub. You will need to run additional commands to push it.  
+<img src="./images/readme/upstream.png" alt="Push Branch Upstream">
+
+Once pushed, your branch will be up and running on GitHub. After this initial push, you can simply use push commands without extra setup.
+
+---
+
+### VS Code Buttons
+
+Using VS Code buttons is less demanding:
+
+1. Click the branch name in the bottom-left corner. You will be prompted to either switch to another branch or create a new branch.
+
+2. **Create Branch** → creates a branch from the branch you are currently on.  
+   **Create Branch From...** → lets you choose which branch to create the new branch from.  
+   <img src="./images/readme/newbranch.png" alt="Create Branch in VS Code">
+
+3. Once you have created the branch, the button will update. To send it to GitHub, click the cloud icon or go into **Source Control** and press the cloud button.
