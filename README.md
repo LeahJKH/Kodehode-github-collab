@@ -23,7 +23,7 @@
 <p>- you can go into inbox (this one doesnt work all of the time)</p>
 
 
-## cloning repo down
+## getting too right folder space
 
 <p>Why clone? well with cloning you get the connection too github automatically</p>
 <p>first make sure you are in the correct filepath. this can be seen in the command line</p>
@@ -32,5 +32,10 @@
 <p>this is a project folder so id wish for it too be in html css which means i need too step back once i can do this from the command line</p>
 <img src="./images/readme/cd.png">
 <p>writing cd .. will take me one folder out if i wanted too go back in id write cd [folder name]</p>
-<img src="./images/readme/file.png">
+<img src="./images/readme/file.png" height="200">
 <p>i can also just press file and open folder and navigate with clicks</p>
+
+## cloning down
+
+<p>now that im on the right file path i can actually clone it down<p>
+<p>!NOTE: you can read into cheatsheet for explinations of the diffrent commands remeber too press code in veiwing window</p>
