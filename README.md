@@ -81,3 +81,21 @@ In your terminal:
 ```bash
 git clone [repository URL]
 ```
+
+<p>once you have gotten this you should have a new folder. check here for getting into the folder</p>
+
+[Setting Up the Right Folder](#setting-up-the-right-folder)
+
+## creating a branch 
+<p>now you are almost there! we will look at two ways too create a new branch</p>
+
+### terminal
+<p> in the terminal too create a new branch we will have too write a few commands </p>
+<img src="./images/readme/branchMake.png">
+<p>this will create the branch for now its invisible. we will have too switch into it and send it up</p>
+<img src="./images/readme/branchswitch.png">
+<p>using this will switch your branch too the new one you made. in your left corner you can see if you have switched branch or not. it will have the name of the branch u are currently in</p>
+<img src="./images/readme/currbranch.png">
+<p>but for now its still not on github we will have too write more commands for that</p>
+
+### vscode buttons
